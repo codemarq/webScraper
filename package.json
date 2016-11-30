@@ -1,0 +1,40 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "A web app that scrapes a news site and updates my page with the scrapings.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemarq/webScraper.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "cheerio",
+    "express",
+    "node",
+    "handlebars"
+  ],
+  "author": "John-Mike Marquardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemarq/webScraper/issues"
+  },
+  "homepage": "https://github.com/codemarq/webScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.7.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nightmare": "^2.8.1"
+  }
+}

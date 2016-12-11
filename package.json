@@ -4,7 +4,8 @@
   "description": "A web app that scrapes a news site and updates my page with the scrapings.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,7 @@
     "mongodb",
     "cheerio",
     "express",
-    "node",
-    "handlebars"
+    "node"
   ],
   "author": "John-Mike Marquardt",
   "license": "ISC",
@@ -25,16 +25,12 @@
   },
   "homepage": "https://github.com/codemarq/webScraper#readme",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
     "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
     "mongoose": "^4.7.0",
+    "morgan": "^1.7.0",
     "request": "^2.79.0"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "nightmare": "^2.8.1"
   }
 }

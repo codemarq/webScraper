@@ -1,16 +1,17 @@
-// main node server stuff
 // ==========================================================================
 // package dependencies
 // ==========================================================================
-
-// express
 var express = require('express');
-
-// method-override
-var methodOverride = require('method-override');
-
-// body-parser
 var bodyParser = require('body-parser');
+var logger = require('morgan');
+var mongoose = require('mongoose');
+var request = require('request');
+var cheerio = require('cheerio');
+// models
+
+// mongoose mpromise is deprecated, using bluebird promises
+var Promise = require('bluebird');
+mongoose.Promise = Promise;
 
 // Sets up the Express App
 // ==========================================================================
